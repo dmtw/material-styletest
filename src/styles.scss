@@ -17,5 +17,8 @@ body {
 }
 
 .alternative-theme, .offline {
-  @include angular-material-theme($alternative-theme);
+  //@include angular-material-theme($alternative-theme);
+  @include angular-material-theme($candy-app-theme);
 }
+
+mat-card { text-align: center; }

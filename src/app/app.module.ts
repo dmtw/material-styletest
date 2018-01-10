@@ -17,6 +17,8 @@ import { ContextMenuComponent } from './context-menu/context-menu.component';
 
 import { ColorPickerComponent } from './shared/color-picker/color-picker.component';
 import { ToolService } from './services/tool.service';
+import { FirstCardComponent } from './first-card/first-card.component';
+import { ProductListCardComponent } from './product-list-card/product-list-card.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { ToolService } from './services/tool.service';
     NavigationComponent,
     CanvasComponent,
     ContextMenuComponent,
-    ColorPickerComponent
+    ColorPickerComponent,
+    FirstCardComponent,
+    ProductListCardComponent
   ],
   imports: [
     BrowserModule,
